@@ -31,5 +31,5 @@ finalmente podemos llamar **procesar_enigma** como **procesar_numero** para ser 
 1. falta la biblioteca que tiene definida a la funcion **printf**, para solucionarlo hay que incluir dicha biblioteca al inicio del codigo, es decir, "#include <stdio.h>"
 2. en la linea anterior [linea 18: int suma = valor1 + valor2] hay un error de sintaxis pues falta un punto y coma, entonces al final escribir ";" para solucionarlo
 3. en la linea anterior [linea 24: return 0] hay un error de sintaxis pues falta un punto y coma, entonces al final escribir ";" para solucionarlo
-4. en la linea 13 [scanf("%d", valor1);] falta un "&" en la funcion scanf, añadirlo antes de "valor1" para solucionarlo
+4. en la linea 13 [scanf("%d", valor1);] falta un "&" en la funcion scanf, hay que añadirlo antes de "valor1" para solucionarlo
 5. la funcion esta recibiendo por valor el numero ingresado cuando deberia ser por referencia, para solucionarlo, en la deficion de la funcion agregar operador de indireccion "*" en el parametro y en el cuerpo de la funcion, y luego en la llamada de la funcion agregar el operador de direccion "&"
